@@ -2,7 +2,7 @@
 
 Know how strings are represented in memory. Understand basic operators such as 
 
-Markup : 1. Comparison
+Markup: 1. Comparison
          2. Copying
          3. Matching
          4. Joining
