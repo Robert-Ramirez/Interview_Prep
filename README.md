@@ -1,7 +1,6 @@
 # Interview Prep
 Practice Java for Interview
 
-> Algorithms, data structures, and system design underline all software.
   
 > Algorithms and data structure code is usually a small component of a 
   system dominated by the user interface (UI), input/output (I/O), and format conversion.
@@ -10,7 +9,7 @@ Practice Java for Interview
   Furthermore, platforms and program languages change quickly, but a firm grasp of 
   data structures, algorithms, and system design principles, will always be a foundational
   part of any successful software endeavor. 
-                                                    -- EPI in Java
+>                                                    - EPI in Java
 
 Progress Tracker:
 
