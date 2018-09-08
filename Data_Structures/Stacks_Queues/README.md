@@ -1,3 +1,5 @@
 # Stack and Queues
 
-Key Benefit:
+Recognize where last-in first-out (stack) and first-in first-out (queue) semantics are applicable.
+
+Know array and linked list implementations.
