@@ -4,7 +4,7 @@ Practice Java for Interview
 Progress Tracker:
 
 - Data Structures and Algorithms:
-- [ ] [Primitive Types]()
+- [ ] [Primitive Types](#Primitive-Types)
 - [ ] [Arrays]()
 - [ ] [Strings]()
 - [ ] [Linked Lists]()
