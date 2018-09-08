@@ -2,7 +2,7 @@
 
 Know how strings are represented in memory. 
 
-> Understand basic operators such as: 
+Understand basic operators, such as: 
          * Comparison
          * Copying
          * Matching
