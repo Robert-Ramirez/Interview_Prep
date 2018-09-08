@@ -8,8 +8,9 @@
 
 - References:
 - [X] [Java: Language Specification by Oracle](https://docs.oracle.com/javase/specs/)
-- [ ] [Java: The Complete Reference by Oracle](#Java)
-- [ ] [Java Precisely](#Java_Percisely)
+- [X] [Java: Language Specification 10](Books/jls10.pdf)
+- [X] [Java: The Complete Reference by Oracle](Books/java-the-complete-reference-ninth-editiona4.pdf)
+- [X] [Java Precisely](Books/java_precisely.pdf)
 - [ ] [Effective Java](#Java)
 - [ ] [Head First Design Patterns](#Java)
 - [ ] [Java Design Pattern Essentials](#Java)
