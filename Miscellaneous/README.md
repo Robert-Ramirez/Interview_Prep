@@ -2,9 +2,9 @@
 
 - General Tips:
 - [X] [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)
-- [ ] [Mock Interviews](#Mock_Interviews)
+- [X] [Best Practice for Interview Code](/Best_Practices/README.md)
 - [ ] [Complexity](#Complexity)
-- [ ] [Best Practice for Interview Code](#Best_Practices)
+- [ ] [Mock Interviews](#Mock_Interviews)
 
 - References:
 - [X] [Java: Language Specification by Oracle](https://docs.oracle.com/javase/specs/)
