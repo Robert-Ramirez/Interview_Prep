@@ -23,7 +23,7 @@ Progress Tracker:
 - [ ] [Parallel Computing](Algorithm_Types/Parallel_Computing/README.md)
 - Domain Specific Problems
 - [ ] [Design Problems](Domain_Specific_Problems/Design_Problems/README.md)
-- [ ] [Language Questions](Domain_Specific_Problems/Language Questions/README.md)
+- [ ] [Language Questions](Domain_Specific_Problems/Language_Questions/README.md)
 - [ ] [Object-Oriented Design](Domain_Specific_Problems/Object_Oriented_Design/README.md)
 - [ ] [Common Tools](Domain_Specific_Problems/Common_Tools/README.md)
 
