@@ -1,2 +1,2 @@
-# Interview_Prep
+# Interview Prep
 Practice Java for Interview
