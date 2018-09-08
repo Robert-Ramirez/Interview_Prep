@@ -1,4 +1,4 @@
-# Binary Search Trees
+# Binary Search Trees #
 
 Key Benefit: O(log n) insertions, deletions, lookups, find-min, find-max, successors,
 predecessor when tree is height-balanced. 

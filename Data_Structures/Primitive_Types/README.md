@@ -1,3 +1,3 @@
-# Primitive Types
+# Primitive Types #
 
 Know how int, char, double, etc.. are represented in memory and the primitive operations on them.

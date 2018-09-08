@@ -1,4 +1,4 @@
-# Hash Tables
+# Hash Tables #
 
 Key Benefit: O(1) insertions, deletions, and lookups. 
 

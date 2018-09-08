@@ -1,4 +1,4 @@
-# Strings
+# Strings #
 
 Know how strings are represented in memory. Understand basic operators such as 
 

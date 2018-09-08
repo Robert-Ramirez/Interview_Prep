@@ -1,4 +1,4 @@
-# Binary Trees
+# Binary Trees #
 
 Key Benefit: Use for representing hierarchical data.
 

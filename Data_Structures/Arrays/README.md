@@ -1,4 +1,4 @@
-# Arrays
+# Arrays #
 
 Fast access for element at an index, slow lookups (unless sorted), and insertions.
 
