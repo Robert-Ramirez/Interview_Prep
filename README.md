@@ -12,7 +12,7 @@ Progress Tracker:
 - [ ] [Binary Trees](Data_Structures/Binary_Trees/README.md)
 - [ ] [Heaps](Data_Structures/Heaps/README.md)
 - [ ] [Hash Tables](Data_Structures/Hash_Tables/README.md)
-- [ ] [Binary Search Trees](Data_Structures/Binary_Search_Types/README.md)
+- [ ] [Binary Search Trees](Data_Structures/Binary_Search_Trees/README.md)
 - Algorithm Types:
 - [ ] [Searching](Algorithm_Types/Searching/README.md)
 - [ ] [Sorting](Algorithm_Types/Sorting/README.md)
