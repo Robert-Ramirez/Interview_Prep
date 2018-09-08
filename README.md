@@ -38,5 +38,5 @@ Progress Tracker:
 - [ ] [Common Tools](Domain_Specific_Problems/Common_Tools/README.md)
 - Miscellaneous:
 - [ ] [Miscellaneous](Miscellaneous/README.md)
-
+- [ ] [Journal](Miscellaneous/Journal/README.md)
 
