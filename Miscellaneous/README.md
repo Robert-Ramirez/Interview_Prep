@@ -2,7 +2,7 @@
 
 - General Tips:
 - [X] [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)
-- [X] [Best Practice for Interview Code](/Best_Practices/README.md)
+- [X] [Best Practice for Interview Code](Best_Practices/README.md)
 - [ ] [Complexity](#Complexity)
 - [ ] [Mock Interviews](#Mock_Interviews)
 
