@@ -3,8 +3,9 @@
 Know how int, char, double, etc.. are represented in memory and the primitive operations on them.
 
 - General Info
-    -[Expression Table](Files/Expression_Table.pdf)
 
+    -[Expression Table](Files/Expressions_Table.pdf)
+    
     ![picture alt](Files/Primitive_Types.JPG)
 
 - Need to Know 
