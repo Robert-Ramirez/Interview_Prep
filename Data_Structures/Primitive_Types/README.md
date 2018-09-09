@@ -4,6 +4,7 @@ Know how int, char, double, etc.. are represented in memory and the primitive op
 
 - General Info   
     ![picture alt](Files/Primitive_Types.JPG)
+    ![picture alt](Expression_Table.JPG)
 
 - Need to Know 
     - [The Bitwise Operators](https://www.tutorialspoint.com/java/java_basic_operators.htm)
