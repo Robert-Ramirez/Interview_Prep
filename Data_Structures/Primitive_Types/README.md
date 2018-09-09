@@ -5,19 +5,6 @@ Know how int, char, double, etc.. are represented in memory and the primitive op
 - General Info   
     ![picture alt](Files/Primitive_Types.JPG)
 
-- Need to know 
-    - Sizes
-    - Ranges
-    - Signedness properties
-    - operators
-    - utility methods for primitive types in Math
-    - difference between box-types(Integer, Double, etc...) and primitive types
-    - role of auto-boxing and the limits of auto-boxing.
-
-- Practice Code:
-- [ ] [countBits](countBits.java)
-
-
 - Need to Know 
     - [The Bitwise Operators](https://www.tutorialspoint.com/java/java_basic_operators.htm)
     - [Constant denoting the maximum and minimum values for numerical types](#Constant)
@@ -41,15 +28,17 @@ Know how int, char, double, etc.. are represented in memory and the primitive op
         - sqrt (225)
     - [Limits of autoboxing](#autoboxing) 
         - Why Character[] C = new char [] {'a', 'b'}; will not compile
-    - [Interconvert types](#convert) 
+    - [Interconvert types](https://docs.oracle.com/javase/tutorial/java/data/converting.html) 
         - Character.getNumberValue(x)
         - String.valueOf(123)
-    - [Random Methods, return a value in [0, 1)](#randome)
+    - [Random Methods](https://docs.oracle.com/javase/8/docs/api/java/util/Random.html)
         - nextInt(16)
         - nextInt()
         - nextBoolean()
         - nextDouble()
-    
+ 
+- Practice Code:
+- [ ] [countBits](countBits.java)   
     
 
 
