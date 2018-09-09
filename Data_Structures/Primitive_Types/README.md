@@ -2,12 +2,6 @@
 
 Know how int, char, double, etc.. are represented in memory and the primitive operations on them.
 
-- Primitive Types:
-    - Boolean
-    - Integer
-    - Character
-    - Floating point data
-
     ![picture alt](Files/Primitive_Types.JPG)
 
 - Need to know 
