@@ -8,7 +8,7 @@ Know how int, char, double, etc.. are represented in memory and the primitive op
     - Character
     - Floating point data
 
-    ![picture alt](Files/Primitive Types.jpg "Primitive Types")
+    ![picture alt](Files/Primitive_Types.jpg "Primitive Types")
 
 - Need to know 
     - Sizes
