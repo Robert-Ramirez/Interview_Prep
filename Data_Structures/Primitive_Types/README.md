@@ -4,7 +4,7 @@ Know how int, char, double, etc.. are represented in memory and the primitive op
 
 - General Info
 
-    -[Expression Table](Files/Expressions_Table.pdf)
+    [Expression Table](Files/Expressions_Table.pdf)
     
     ![picture alt](Files/Primitive_Types.JPG)
 
