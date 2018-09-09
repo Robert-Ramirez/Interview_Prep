@@ -41,7 +41,10 @@ Know how int, char, double, etc.. are represented in memory and the primitive op
         - nextDouble()
  
 - Practice Code:
-    - [ ] [countBits](Code/countBits.java)   
+    - [X] [countBits](Code/EPI/countBits.java)   
+    - [X] [Bitwise Operators](Code/Practice/bitwiseMethods.java)   
+    - [X] [Math Library](Code/Practice/mathMethods.java)   
+    - [X] [Box-Types](Code/Practice/boxMethods.java)   
     
 
 
