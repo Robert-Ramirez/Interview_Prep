@@ -11,7 +11,7 @@ Be comfortable with iteration, insertion, and deletion within singly and doubly 
         - Inserting and deleting elements in a list has time complexity O(1)
         - Obtaining the kth element in a list is expensive, O(n) time complexity.
 
-> Common Problems
+- Common Problems
     - Lists problems often have a simple brute-force solutions that uses O(n) space, but a subtler solution that uses the exisiting list nodes to reduce space complexity to O(1).
     - Very often, a problem on lists is conceptually simple, and is more about cleanly coding what's specified, rather than designing an algorithm.
     - Consider using a dummy head (sometimes referred to as a sentinel) to avoid having check for empty lists. This simplifies code, and makes bugs less likley.
