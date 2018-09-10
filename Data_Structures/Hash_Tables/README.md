@@ -30,39 +30,39 @@ Key Benefit: O(1) insertions, deletions, and lookups.
    - Poor worst-case performance 
  
 - Common Problems
-         - Hash Tables have the best theoretical and real-world performance for lookup, insert, and delete. Each of these operations has O(1) time complexity. The O(1) times complexity
-           for insertion is the average case - a single insert can take O(n) if the hash table has to be resized.
-         - Consider using a hash code as a signature to enhance performance (to filter out candidates).
-         - Consider using a precomputed lookup table instead of a boilerplace if-then code for mappings (from chracter to value or chracter to character)
-         - When defining your own type that will be put in a hash table, be sure you understand the relationship between logical equality and the fields the hash function must inspect.
-           Specifically, anytime equality is implemented, it is imperative that the correct hash function is also implemented, otherwise when objects are placed in the hash table, logically
-           equivalent objects may appear in different buckets, leading to lookups returning false, even when the searched items is present.
-         - Sometimes you'll need a multimap, i.e., a map that contains multiple values for a single keys, or a bi-directional map. If the language's standard libraries do not provide the functionality
-           you need, learn how to implement a multimap using lists as values, or find a third party library that has a multimap.
+   - Hash Tables have the best theoretical and real-world performance for lookup, insert, and delete. Each of these operations has O(1) time complexity. The O(1) times complexity
+     for insertion is the average case - a single insert can take O(n) if the hash table has to be resized.
+   - Consider using a hash code as a signature to enhance performance (to filter out candidates).
+   - Consider using a precomputed lookup table instead of a boilerplace if-then code for mappings (from chracter to value or chracter to character)
+     When defining your own type that will be put in a hash table, be sure you understand the relationship between logical equality and the fields the hash function must inspect.
+   - Specifically, anytime equality is implemented, it is imperative that the correct hash function is also implemented, otherwise when objects are placed in the hash table, logically
+     equivalent objects may appear in different buckets, leading to lookups returning false, even when the searched items is present.
+   - Sometimes you'll need a multimap, i.e., a map that contains multiple values for a single keys, or a bi-directional map. If the language's standard libraries do not provide the functionality
+     you need, learn how to implement a multimap using lists as values, or find a third party library that has a multimap.
 
 - Library
-         - There are two hash table-based data structures commonly used in Java 
-                  - HashSet
-                  - HashMap
-         - The difference between the two is that the latter stores key-value pairs, whereas the former simply stores keys. Both have the property that they do not 
-           allow for duplicate keys, unlike LinkedList and PriorityQueue. Technically, HashSet implements the Set interface, and HashMap implements the Map interface.
-         - Key Methods for HashSet defined in Set
-                  -  add()
-                  -  remove()
-                  -  contains()
-                  -  iterator()
-                  -  isEmpty()
-                  -  size()
-                  -  Both add and remove return a Booleanindicating if the added/removed element was already present. 
-                  -  It's is important to remember that null is a valid entry.
-                           - The order in which keys are traversed by the iterator returned by the iterator() is unspecified; it may even change with time. 
-                             The class LinkedHashSet subclasses HashSet - the only difference is that iterator() return keys in the order in which they were
-                             inserted into the set. This order is not affected if an element is re-inserted into the set (if s.add(x) is called when s.contains(x) is true).
-                           - HashSet implements retainAll(C), which can be used to perform set intersectin - this can be used to reduce coding burden substantially in some cases.
-                             A related method is removeAll(C).
-         - Key Methods for HashMap defined in Map
-                  -  put("z",26)
-                  -  get("Hardy")
-                  -  remove("z")
-                  -  containsKey("Hardy")
+  - There are two hash table-based data structures commonly used in Java
+         - HashSet
+         - HashMap
+  - The difference between the two is that the latter stores key-value pairs, whereas the former simply stores keys. Both have the property that they do not 
+    allow for duplicate keys, unlike LinkedList and PriorityQueue. Technically, HashSet implements the Set interface, and HashMap implements the Map interface.
+  - Key Methods for HashSet defined in Set
+         - add()
+         - remove()
+         - contains()
+         - iterator()
+         - isEmpty()
+         - size()
+         - Both add and remove return a Booleanindicating if the added/removed element was already present. 
+         - It's is important to remember that null is a valid entry.
+                  - The order in which keys are traversed by the iterator returned by the iterator() is unspecified; it may even change with time. 
+                    The class LinkedHashSet subclasses HashSet - the only difference is that iterator() return keys in the order in which they were
+                    inserted into the set. This order is not affected if an element is re-inserted into the set (if s.add(x) is called when s.contains(x) is true).
+                  - HashSet implements retainAll(C), which can be used to perform set intersectin - this can be used to reduce coding burden substantially in some cases.
+                    A related method is removeAll(C).
+  - Key Methods for HashMap defined in Map
+         - put("z",26)
+         - get("Hardy")
+         - remove("z")
+         - containsKey("Hardy")
          
