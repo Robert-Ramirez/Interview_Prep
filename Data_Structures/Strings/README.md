@@ -24,7 +24,7 @@ Know how strings are represented in memory.
 
      
 - Library
-    - String class
+    - [String class](https://docs.oracle.com/javase/9/docs/api/java/lang/String.html)
        - Key Methods
           - charAt(1)
           - compareTo("Foo")
@@ -51,7 +51,7 @@ Know how strings are represented in memory.
             one takes a start index, and return a suffix (easily confused with prefix) and the other takes a start and end index 
             (the returned substring includes the character at start but not the character at end).
 
-    - StringBuilder class
+    - [StringBuilder class](https://docs.oracle.com/javase/7/docs/api/java/lang/StringBuilder.html)
          - Needed because Java strings are immutable, so to make string efficient, it's necessary to have a mutable string class.
          - Key methods in StringBuilder:
             - append()
