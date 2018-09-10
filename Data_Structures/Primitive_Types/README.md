@@ -1,14 +1,19 @@
 # Primitive Types #
 
-Know how int, char, double, etc.. are represented in memory and the primitive operations on them.
-
+> A program updates variables in memory according to its instructions. Variables come in types- a type is a classification of data that spells out possible values for
+  that type and the operations that can be performed on it. A type can be provided by the language or defined by the programmer. Many languages provide types for
+  Boolean, integer, character, and flooting point data. Often, there are multiple integer and floating point types, depending on signedness and precision. The width of 
+  these types is the number of bits of storage a corresponding variable takes in memory. In java an int is always 32 bits.
+  
 - General Info
 
     [Expression Table](Files/Expressions_Table.pdf)
     
     ![picture alt](Files/Primitive_Types.JPG)
 
-- Need to Know 
+Know how int, char, double, etc.. are represented in memory and the primitive operations on them.
+
+- Common Problems
     - [The Bitwise Operators](https://www.tutorialspoint.com/java/java_basic_operators.htm)
     - [Constant denoting the maximum and minimum values for numerical types](https://howtodoinjava.com/java/basics/primitive-data-types-in-java/)
         - Integer.Min_Value
