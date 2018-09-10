@@ -18,13 +18,13 @@
  In some applications, a trie, which is a tree data structure that is used to store a dynamic set of strings, has computational advantages. Unlike a BST, nodes in the tree
  do not store a key. Instead, the node's position in the tree defines the key which it is associated with.
 
+
 Understand implmentation using array of buckets and collision chains. 
 
 Know hash functions for integers, string, objects. 
-
 Key Benefit: O(1) insertions, deletions, and lookups. 
 
-- Key Disadvantages: 
+- Key Disadvantages 
          - Not suitable for order-related queries. 
          - Need for resizing. 
          - Poor worst-case performance. 
