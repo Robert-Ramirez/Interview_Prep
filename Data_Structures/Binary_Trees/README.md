@@ -23,7 +23,7 @@ Skewed Binary Trees
 being skewed.
 
 Traversal
-> Key Computation on a binary tree is traversing all the nodes in the tree. preorder (*LR), inorder (L*R), and postorder (LR*) traversals.
+> Key Computation on a binary tree is traversing all the nodes in the tree. preorder (Root, Left, Right), inorder (Left, Root, Right), and postorder (Left, Right, Root) traversals.
 
 Key Benefit: Use for representing hierarchical data.
 
