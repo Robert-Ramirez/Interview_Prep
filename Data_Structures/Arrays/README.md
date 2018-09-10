@@ -1,14 +1,12 @@
 # Arrays #
 
-Fast access for element at an index, slow lookups (unless sorted), and insertions.
+> The simpliest data structure is the array, which is a contiguous block of memory (it is usually used to represent sequences). 
+  Fast access for element at an index, slow lookups (unless sorted), and insertions.
 
 Be comfortable with notions of iterations, resizing, partitioning, merging, etc..
 
-> The simpliest data structure is the array, which is a contiguous block of memory. 
-  It is usually used to represent sequences. 
- 
 
-- Suggestions
+- Common Problems
     - Space constraints 
         - When working with an array you should take advantage of the fact that you can operate efficiently on both ends.
     - Sublter solutions 
