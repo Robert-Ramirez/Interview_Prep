@@ -15,7 +15,7 @@ Progress Tracker:
 
 - Data Structures:
 - [X] [Primitive Types](Data_Structures/Primitive_Types/README.md)
-- [ ] [Arrays](Data_Structures/Arrays/README.md)
+- [X] [Arrays](Data_Structures/Arrays/README.md)
 - [ ] [Strings](Data_Structures/Strings/README.md)
 - [ ] [Linked Lists](Data_Structures/Lists/README.md)
 - [ ] [Stacks and Queues](Data_Structures/Stacks_Queues/README.md)
