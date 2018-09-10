@@ -25,9 +25,9 @@ Know hash functions for integers, string, objects.
 Key Benefit: O(1) insertions, deletions, and lookups. 
 
 - Key Disadvantages 
-         - Not suitable for order-related queries. 
-         - Need for resizing. 
-         - Poor worst-case performance. 
+         - Not suitable for order-related queries 
+         - Need for resizing 
+         - Poor worst-case performance 
  
 - Common Problems
          - Hash Tables have the best theoretical and real-world performance for lookup, insert, and delete. Each of these operations has O(1) time complexity. The O(1) times complexity
