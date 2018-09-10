@@ -42,8 +42,8 @@ Key Benefit: O(1) insertions, deletions, and lookups.
 
 - Library
   - There are two hash table-based data structures commonly used in Java
-         - HashSet
-         - HashMap
+     - HashSet
+     - HashMap
   - The difference between the two is that the latter stores key-value pairs, whereas the former simply stores keys. Both have the property that they do not 
     allow for duplicate keys, unlike LinkedList and PriorityQueue. Technically, HashSet implements the Set interface, and HashMap implements the Map interface.
   - Key Methods for HashSet defined in Set
