@@ -8,12 +8,12 @@
 Know how strings are represented in memory. 
 
 - Understand basic operators, such as:
-         - Comparison
-         - Copying
-         - Matching
-         - Joining
-         - Splitting
-         - etc...
+    - Comparison
+    - Copying
+    - Matching
+    - Joining
+    - Splitting
+    - etc...
 
 - Common Problems
     - Similiar to arrays, string problems often have simple brute-force solutions that uses O(n) space solutions,
