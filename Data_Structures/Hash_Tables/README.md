@@ -40,7 +40,7 @@ Key Benefit: O(1) insertions, deletions, and lookups.
          - Sometimes you'll need a multimap, i.e., a map that contains multiple values for a single keys, or a bi-directional map. If the language's standard libraries do not provide the functionality
            you need, learn how to implement a multimap using lists as values, or find a third party library that has a multimap.
 
-- Library:
+- Library
          - There are two hash table-based data structures commonly used in Java 
                   - HashSet
                   - HashMap
