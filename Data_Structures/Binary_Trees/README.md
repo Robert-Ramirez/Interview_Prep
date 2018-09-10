@@ -5,7 +5,7 @@
   Binary Trees most commonly occur in the context of binary search trees, wherein keys are stored in a sorted fashion. However, there are many other application of binary trees:
   at a high-level, binary tree are appropriate when dealing with hierarchies. 
 
-Parent-Child
+Parent-Child relationship
 
 > The parent-child relationship defines an ancestor-descendant relationship on nodes in a binary tree. A node that has no descendants except itself is called a leaf.
 
