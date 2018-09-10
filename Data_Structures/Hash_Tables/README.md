@@ -47,22 +47,22 @@ Key Benefit: O(1) insertions, deletions, and lookups.
   - The difference between the two is that the latter stores key-value pairs, whereas the former simply stores keys. Both have the property that they do not 
     allow for duplicate keys, unlike LinkedList and PriorityQueue. Technically, HashSet implements the Set interface, and HashMap implements the Map interface.
   - Key Methods for HashSet defined in Set
-         - add()
-         - remove()
-         - contains()
-         - iterator()
-         - isEmpty()
-         - size()
-         - Both add and remove return a Booleanindicating if the added/removed element was already present. 
-         - It's is important to remember that null is a valid entry.
-                  - The order in which keys are traversed by the iterator returned by the iterator() is unspecified; it may even change with time. 
-                    The class LinkedHashSet subclasses HashSet - the only difference is that iterator() return keys in the order in which they were
-                    inserted into the set. This order is not affected if an element is re-inserted into the set (if s.add(x) is called when s.contains(x) is true).
-                  - HashSet implements retainAll(C), which can be used to perform set intersectin - this can be used to reduce coding burden substantially in some cases.
-                    A related method is removeAll(C).
+     - add()
+     - remove()
+     - contains()
+     - iterator()
+     - isEmpty()
+     - size()
+     - Both add and remove return a Booleanindicating if the added/removed element was already present. 
+     - It's is important to remember that null is a valid entry.
+         - The order in which keys are traversed by the iterator returned by the iterator() is unspecified; it may even change with time. 
+           The class LinkedHashSet subclasses HashSet - the only difference is that iterator() return keys in the order in which they were
+           inserted into the set. This order is not affected if an element is re-inserted into the set (if s.add(x) is called when s.contains(x) is true).
+         - HashSet implements retainAll(C), which can be used to perform set intersectin - this can be used to reduce coding burden substantially in some cases.
+           A related method is removeAll(C).
   - Key Methods for HashMap defined in Map
-         - put("z",26)
-         - get("Hardy")
-         - remove("z")
-         - containsKey("Hardy")
+     - put("z",26)
+     - get("Hardy")
+     - remove("z")
+     - containsKey("Hardy")
          
