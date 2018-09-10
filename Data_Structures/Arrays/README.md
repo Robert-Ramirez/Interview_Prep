@@ -9,29 +9,29 @@ Be comfortable with notions of iterations, resizing, partitioning, merging, etc.
  
 
 - Suggestions
-    - [Space constraints] 
+    - Space constraints 
         - When working with an array you should take advantage of the fact that you can operate efficiently on both ends.
-    - [Sublter solutions] 
+    - Sublter solutions 
         - Array problems often have simple brute-force solutions that use O(n) space, but there are subtler
           solotions that use the array itself to reduce space complexity to O(1).
-    - [Write from back] 
+    - Write from back 
         - Filling an array from the front is slow, so see if it's possible to write values from the back.
-    - [Overwriting instead of deleting]
+    - Overwriting instead of deleting
         - Instead of deleting an entry (which requires moving all entires to its left), consider overwriting it.
-    - [Integer encoded]
+    - Integer encoded
         - When dealing with integers encoded by an array consider processing the digits from the back of the array.
           Alternatively, reverse the array so the least-significant digit is the first entry.
-    - [Subarrays]
+    - Subarrays
         - Be comfortable with writing code that operates on subarrays.
-    - [Out of Bound Exception]
+    - Out of Bound Exception
         - It's incredibly easy to make off-by-1 errors when operating on arrays (out of bound exception).
-    - [Perserving Integrity of Array]
+    - Perserving Integrity of Array
         - Don't worry about perserving the integrity of the array (sortedness, keeping the equal entries together, etc..) until it is time to return.
-    - [good for fixed size input]
+    - Good for fixed size input
         - An array can serve as a good data structure when you know the distribution of the elements in advance.
-    - [2D array parallel logic]
+    - 2D array parallel logic
         - When operating on 2D arrays, use parallel logic for rows and for columns.
-    - [Specification]
+    - Specification
         - Sometimes it's easier to simulate the specification, than to analytically solve for the result.
      
 - Library
