@@ -15,3 +15,5 @@ Recognize where last-in first-out (stack) and first-in first-out (queue) semanti
 Know array and linked list implementations.
 
 - Common Problems
+    - Learn to recognize when the stack LIFO property is applicable. For example, parsing typically benefits from a stack.
+    - Consider augmenting the basic stack or queue data structure to support additional operations, such as finding the maximum element.
