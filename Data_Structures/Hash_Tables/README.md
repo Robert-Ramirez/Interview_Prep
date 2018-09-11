@@ -65,4 +65,18 @@ Key Benefit: O(1) insertions, deletions, and lookups.
      - get("Hardy")
      - remove("z")
      - containsKey("Hardy")
+     - There are several methods that are relevant to iteration
+         - entrySet()
+         - keySet()
+         - values()
+         - Note that these methods do not follow a parallel naming scheme. The generic static inner class Map. Entry <K, V> is used to iterate over key-value pairs.
+         - Iteration order is not fixed (though iteration over the entry set, the key set, and the value set does match up).
+     - To iterate in fixed order, uses a LinkedHashMap. A LinkedHashMap is somewhat more complex than a LinkedHashSet - for example, it can be specified that the iteration
+     - should proceed in insertion order, or in access order (in which case a call to get (42) will move the corresponding element to the front of the ordering). A 
+     - LinkedHashMap can also specify capacity constraints, and enable a least-recently used (LRU) eviction policy.
+     - The Object class provides a number of static utility methods that can greatly reduce the burden of writing equals (obj) and hashCode(). 
+        - Example methods
+            - Objects.equals(x,y)
+            - Objects.deepEquals(A,B)
+            - Objects.hash(42, "Douglas Adams", 3.14, new Data())
          
