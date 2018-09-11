@@ -34,7 +34,11 @@ Timeline:
         - Work with strings (palindrome, anagram)
         - "Dynamic programming" - Memoization
 - 09/11/2018:
-    - TBD   
+    - CTCI Chapter 1 (Arrays and Strings)  
+        - Practice Porblems 1-3.
+    - Leetcode (Learn Section)
+        - Hash Set
+        - Hash Maps
 - 09/12/2018:
     - TBD 
 - 09/13/2018:
