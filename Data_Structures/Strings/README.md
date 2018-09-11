@@ -26,9 +26,9 @@ Know how strings are represented in memory.
 - Library
     - [String class](https://docs.oracle.com/javase/9/docs/api/java/lang/String.html)
        - Key Methods
-          - [x] charAt(i) 
-          - [x] toCharArray() convert a String to a Char [] array
-          - [x] new String(temp) convert a char array to a String.
+          - [x] str.charAt(i) - retrieve a character from a string. 
+          - [x] toCharArray() convert a String to a char[] array
+          - [x] new String(temp) convert a char[] array to a String.
           - [ ] compareTo("Foo")
           - [ ] concat("bar") (returns a new string - does not update the invoking string)
           - [ ] contains ("aba")
