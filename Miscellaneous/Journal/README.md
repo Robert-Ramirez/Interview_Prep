@@ -15,7 +15,24 @@ Timeline:
     - Complete practice problems in chapter 4.
 
 - 09/10/2018:
-    - TBD 
+    - What you should learn.
+        - Tree Traversal (recursive and iterative)
+        - BFS
+        - DFS
+        - Binary Search (log time)
+        - Data structures to represent a tree
+        - Elegant recursion (with helper functions) - know the limits of recursion - know how to convert to an iterative algo
+        - Fibonacci
+        - Stack and Queues
+        - Given a string of parens, check if they're valid (use stack)
+        - Object oriented programming (bring it up whenever you can) - class, parameters, public variables
+        - Grid (2D array or Grid class?)
+        - Hash Maps - Time space analysis, hashing function, collisions
+        - Big O theory
+        - Have different programming languages at your disposal, don't stick with PHP if you're interviewing for Java.
+        - Sorting (bubble sort, merge sort)
+        - Work with strings (palindrome, anagram)
+        - "Dynamic programming" - Memoization
 - 09/11/2018:
     - TBD   
 - 09/12/2018:
