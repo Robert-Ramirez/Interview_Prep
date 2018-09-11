@@ -65,3 +65,4 @@ Know how strings are represented in memory.
 
 - Practice Code:
     - [X] [Palindromic](Code/EPI/Palindromic.java)   
+    - [X] [isUniqueChars](Code/Leetcode/isUniqueChars.java)   
