@@ -48,11 +48,11 @@ Key Benefit: O(1) insertions, deletions, and lookups.
     allow for duplicate keys, unlike LinkedList and PriorityQueue. Technically, HashSet implements the Set interface, and HashMap implements the Map interface.
   - Key Methods for HashSet defined in Set
      - [x] add() - The function returns True if the element is not present in the HashSet otherwise False if the element is already present in the HashSet.
-     - [ ] remove()
+     - [ ] remove() - Removes the specified element from this set if it is present.
      - [x] contains() - Returns true if this set contains the specified element.
      - [ ] iterator() - Returns an iterator over the elements in this set.
-     - [ ] isEmpty()
-     - [ ] size()
+     - [ ] isEmpty() - Returns true if this set contains no elements.
+     - [ ] size() - Returns the number of elements in this set (its cardinality).
      - [ ] Both add and remove return a Booleanindicating if the added/removed element was already present. 
      - It's is important to remember that null is a valid entry.
          - The order in which keys are traversed by the iterator returned by the iterator() is unspecified; it may even change with time. 
@@ -62,14 +62,14 @@ Key Benefit: O(1) insertions, deletions, and lookups.
            A related method is removeAll(C).
 
   - Key Methods for HashMap defined in Map
-     - [ ] put("z",26)
-     - [ ] get("Hardy")
-     - [ ] remove("z")
-     - [ ] containsKey("Hardy")
+     - [ ] put(K, V) - Associates the specified value with the specified key in this map.
+     - [ ] get("Hardy") - Returns the value to which the specified key is mapped, or null if this map contains no mapping for the key.
+     - [ ] remove("z") - Removes the mapping for the specified key from this map if present.
+     - [ ] containsKey("Hardy") - Returns true if this map contains a mapping for the specified key.
      - There are several methods that are relevant to iteration
-         - [ ] entrySet()
-         - [ ] keySet()
-         - [ ] values()
+         - [ ] entrySet(K, V) - Returns a Set view of the mappings contained in this map.
+         - [ ] keySet() - Returns a Set view of the keys contained in this map.
+         - [ ] values() - Returns a Collection view of the values contained in this map.
          - Note that these methods do not follow a parallel naming scheme. The generic static inner class Map. Entry <K, V> is used to iterate over key-value pairs.
          - Iteration order is not fixed (though iteration over the entry set, the key set, and the value set does match up).
      - To iterate in fixed order, uses a LinkedHashMap. A LinkedHashMap is somewhat more complex than a LinkedHashSet - for example, it can be specified that the iteration
