@@ -47,28 +47,29 @@ Key Benefit: O(1) insertions, deletions, and lookups.
   - The difference between the two is that the latter stores key-value pairs, whereas the former simply stores keys. Both have the property that they do not 
     allow for duplicate keys, unlike LinkedList and PriorityQueue. Technically, HashSet implements the Set interface, and HashMap implements the Map interface.
   - Key Methods for HashSet defined in Set
-     - add()
-     - remove()
-     - contains()
-     - iterator()
-     - isEmpty()
-     - size()
-     - Both add and remove return a Booleanindicating if the added/removed element was already present. 
+     - [x] add() - The function returns True if the element is not present in the HashSet otherwise False if the element is already present in the HashSet.
+     - [ ] remove()
+     - [ ] contains()
+     - [ ] iterator()
+     - [ ] isEmpty()
+     - [ ] size()
+     - [ ] Both add and remove return a Booleanindicating if the added/removed element was already present. 
      - It's is important to remember that null is a valid entry.
          - The order in which keys are traversed by the iterator returned by the iterator() is unspecified; it may even change with time. 
            The class LinkedHashSet subclasses HashSet - the only difference is that iterator() return keys in the order in which they were
            inserted into the set. This order is not affected if an element is re-inserted into the set (if s.add(x) is called when s.contains(x) is true).
          - HashSet implements retainAll(C), which can be used to perform set intersectin - this can be used to reduce coding burden substantially in some cases.
            A related method is removeAll(C).
+
   - Key Methods for HashMap defined in Map
-     - put("z",26)
-     - get("Hardy")
-     - remove("z")
-     - containsKey("Hardy")
+     - [ ] put("z",26)
+     - [ ] get("Hardy")
+     - [ ] remove("z")
+     - [ ] containsKey("Hardy")
      - There are several methods that are relevant to iteration
-         - entrySet()
-         - keySet()
-         - values()
+         - [ ] entrySet()
+         - [ ] keySet()
+         - [ ] values()
          - Note that these methods do not follow a parallel naming scheme. The generic static inner class Map. Entry <K, V> is used to iterate over key-value pairs.
          - Iteration order is not fixed (though iteration over the entry set, the key set, and the value set does match up).
      - To iterate in fixed order, uses a LinkedHashMap. A LinkedHashMap is somewhat more complex than a LinkedHashSet - for example, it can be specified that the iteration
