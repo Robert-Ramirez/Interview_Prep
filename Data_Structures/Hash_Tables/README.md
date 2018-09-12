@@ -49,8 +49,8 @@ Key Benefit: O(1) insertions, deletions, and lookups.
   - Key Methods for HashSet defined in Set
      - [x] add() - The function returns True if the element is not present in the HashSet otherwise False if the element is already present in the HashSet.
      - [ ] remove()
-     - [ ] contains()
-     - [ ] iterator()
+     - [x] contains() - Returns true if this set contains the specified element.
+     - [ ] iterator() - Returns an iterator over the elements in this set.
      - [ ] isEmpty()
      - [ ] size()
      - [ ] Both add and remove return a Booleanindicating if the added/removed element was already present. 
